@@ -17,15 +17,3 @@ export {Quat} from './math/Quat.js';
 export {Vec2} from './math/Vec2.js';
 export {Vec3} from './math/Vec3.js';
 export {Vec4} from './math/Vec4.js';
-
-// Extras
-export {Plane} from './extras/Plane.js';
-export {Cube} from './extras/Cube.js';
-export {Sphere} from './extras/Sphere.js';
-export {Orbit} from './extras/Orbit.js';
-// export {Curve} from './extras/Curve.js';
-// export {Raycasting} from './extras/Raycasting.js';
-// export {Projection} from './extras/Projection.js';
-// export {Post} from './extras/Post.js';
-// export {Rig} from './extras/Rig.js';
-// export {RigAnimation} from './extras/RigAnimation.js';
