@@ -1791,6 +1791,11 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
+gl-matrix@^3.3.0:
+  version "3.3.0"
+  resolved "http://registry.npm.baidu-int.com/gl-matrix/-/gl-matrix-3.3.0.tgz#232eef60b1c8b30a28cbbe75b2caf6c48fd6358b"
+  integrity sha1-Iy7vYLHIswooy751ssr2xI/WNYs=
+
 glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.1.6"
   resolved "http://registry.npm.baidu-int.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
