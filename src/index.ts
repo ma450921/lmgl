@@ -16,7 +16,7 @@ export { Mat4 } from './math/Mat4.js';
 export { Quat } from './math/Quat.js';
 export { Vec2 } from './math/Vec2.js';
 export { Vec3 } from './math/Vec3.js';
-export { Vec4 } from './math/Vec4.js';
+export { Vec4 } from './math/Vec4.ts';
 
 // Extras
 export { Plane } from './extras/Plane.js';

@@ -1,8 +1,11 @@
-import * as Vec4Func from './functions/Vec4Func.js';
+import * as Vec4Func from './functions/Vec4Func';
 
-export class Vec4 extends Array {
+export class Vec4 {
     constructor(x = 0, y = x, z = x, w = x) {
-        super(x, y, z, w);
+        this[0] = x;
+        this[1] = y;
+        this[2] = z;
+        this[3] = w;
         return this;
     }
 

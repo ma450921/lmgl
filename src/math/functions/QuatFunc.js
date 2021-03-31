@@ -1,4 +1,4 @@
-import * as vec4 from './Vec4Func.js';
+import * as vec4 from './Vec4Func.ts';
 
 /**
  * Set a quat to the identity quaternion

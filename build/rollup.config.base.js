@@ -7,14 +7,15 @@ import commonjs from 'rollup-plugin-commonjs';
 export const resolveFile = filePath => {
     return path.join(__dirname, '..', filePath);
 }
-
+const extensions = ['.json', '.js', '.ts', '.tsx'];
 const babelConfig = {
     runtimeHelpers: true,
-    exclude: 'node_modules/**'
+    exclude: 'node_modules/**',
+    extensions
 };
 
 const plugins = [
-    resolve(),
+    resolve({extensions}),
     commonjs({
         exclude: 'src/**'
     }),
@@ -28,6 +29,6 @@ const plugins = [
 ];
 
 export default {
-    input: resolveFile('src/index.mjs'),
+    input: resolveFile('src/index.ts'),
     plugins
 }
